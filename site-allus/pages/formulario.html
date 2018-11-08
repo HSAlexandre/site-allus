@@ -17,6 +17,9 @@
 <!-- Roboto Font-->
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
+    <!-- Orbitron Font -->
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+
 <title>Allus Tecnologia</title>
 </head>   
 
@@ -42,28 +45,31 @@ font-size: 20px;
 
 <body>
    
-    <div class="grey lighten-5">
     
-        <nav class="blue lighten-3">
-            <div class="nav-wrapper">
-                <div class="container">
-                    <a href="home.html" class="brand-logo">Allus Tecnologia</a>
-                    <ul id="nav-mobile" class="right hide-on-med-and-down">
-                        <li><a href="home.html">Home</a></li>
-                        <li><a href="#">Serviços</a></li>
-                        <li><a href="#">Contato</a></li>
-                        <li><a href="#">Sobre</a></li>
-                    </ul>
+        
+        <div class="navbar-fixed">
+            <nav class="light-blue darken-3">
+                <div class="nav-wrapper z-depth-2">
+                    <div class="container">
+                        <a href="index.html" style="font-family: 'Orbitron', sans-serif;" class="brand-logo">Allus Tecnologia</a>
+                        <ul id="nav-mobile" class="right hide-on-med-and-down">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#">Serviços</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="#">Sobre</a></li>
+                        </ul>
+                    </div>
                 </div>
-            </div>
-        </nav>  
+            </nav> 
+        </div> 
+    <div class="grey lighten-5">
         <br><br><br><br>
 
-        <h2 class="blue-text center">Entre em contato com a Allus</h2>
+        <h2 class="light-blue-text text-darken-3 center">Entre em contato com a Allus</h2>
             <br><br>
 
         <div class="container">
-        <p id="texto">Preenha o formulário abaixo para entrar em contato conosco!</p>
+        <p id="texto" align="center">Preenha o formulário abaixo para entrar em contato conosco!</p>
 
         <!-- Formulário -->
 
@@ -92,13 +98,12 @@ font-size: 20px;
                             </div>
                             
                             <div class="input-field col s12 l6 offset-12">
-                                <i class="material-icons prefix">email</i>
+                                <i class="material-icons prefix">location_on</i>
                                 <input type="email" id="email">
                                 <label for="email">Cidade</label>
                             </div>
 
                             <div class="input-field col s12 l6 offset-12">
-                                <i class="material-icons prefix">email</i>
                                 <input type="email" id="email">
                                 <label for="email">Estado</label>
                             </div>  
@@ -109,7 +114,7 @@ font-size: 20px;
                                 <label for="textarea1">Mensagem</label>
                             </div>
                             
-                            <button class="btn waves-effect waves-light blue" type="submit" name="action">Enviar
+                            <button class="btn waves-effect waves light-blue darken-3" type="submit" name="action">Enviar
                                 <i class="material-icons right">send</i>
                             </button>
                         </form>
@@ -133,44 +138,53 @@ font-size: 20px;
         <br><br><br><br><br>
         </div>
 
-        <footer class="page-footer blue lighten-3 z-depth-4">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Allus Tecnologia</h5>
-                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
-                </div>
-                <div class="col l5 offset-l1 s12">
-                    <h5 class="white-text">Informações de contato</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3">
-                            <i class="material-icons left">location_on</i>
-                            R. Luiz Lauro Damiazo, 108, apto 2 –
-                            Cidade Universitária, Limeira - SP,
-                            13484-642
-                            </a></li>
-                            
-                        <li><a class="grey-text text-lighten-3">
-                        <i class="material-icons left">phone</i>
-                        (19) 99177-3234 </a></li>
-                        
-                        <li><a class="grey-text text-lighten-3">
-                        <i class="material-icons left">email</i>
-                        v188480@dac.unicamp.br</a></li>
-                        
-                        <li><a class="grey-text text-lighten-3 push-l7" href="home.html">
-                        <i class="material-icons left">language</i>
-                        www.allustech.com.br</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
+        <footer class="page-footer blue-grey darken-3">
             <div class="container">
-                © 2018 Allus Tecnologia
+                <div class="row">
+                    <div class="col l6 s12">
+                        <h5 class="white-text">Allus Tecnologia</h5>
+                        <p>Nossos valores: </p>
+                        <ul>
+                            <li id="footer">“Crescer junto com nosso cliente, sempre lado a lado”.
+                            <li id="footer">“Confiabilidade”.</li>
+                            <li id="footer">“Relacionamento íntegro com o cliente”.</li>
+                            <li id="footer">“Ética, respeito e transparência”.</li>
+                            <li id="footer">“Comprometimento”.</li>
+                            <li id="footer">“Ser a luz para nosso cliente".</li>
+                        </ul>
+                    </div>
+                    <div class="col l5 offset-l1 s12">
+                        <h5 class="white-text">Informações de contato</h5>
+
+                        <ul>
+                            <li><a class="grey-text text-lighten-3">
+                                <i class="material-icons">location_on</i>
+                                R. Luiz Lauro Damiazo, 108, apto 2 –
+                                Cidade Universitária, Limeira - SP,
+                                13484-642
+                                </a></li>
+
+                            <li><a class="grey-text text-lighten-3">
+                                <i class="material-icons">phone</i>
+                                (19) 99177-3234</a></li>
+
+                            <li><a class="grey-text text-lighten-3">
+                                <i class="material-icons">email</i>
+                                v188480@dac.unicamp.br</a></li>
+
+                            <li><a class="grey-text text-lighten-3" href="index.html">
+                                <i class="material-icons">language</i>
+                                www.allustech.com.br</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-        </div>
-    </footer>
+            <div class="footer-copyright">
+                <div class="container">
+                    © 2018 Allus Tecnologia
+                </div>
+            </div>
+        </footer>
     </div>
    
     <!-- Compiled and minified JavaScript -->
